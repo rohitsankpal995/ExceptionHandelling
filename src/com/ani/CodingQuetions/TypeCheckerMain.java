@@ -9,9 +9,10 @@ public class TypeCheckerMain {
         Object obj4 = null;
 
 
-        ob.checkInstance(obj1);
+        ob.checkInstance(null);
         ob.checkInstance(obj2);
         ob.checkInstance( obj3);
         ob.checkInstance( new Car());
+        ob.checkInstance( obj4);
     }
 }
